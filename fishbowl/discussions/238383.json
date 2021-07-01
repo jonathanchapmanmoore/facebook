@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "535823",
+    "ThreadId": "238383",
+    "Html": "\r\n<p>Hi,&nbsp;</p>\r\n<p>do we have a getting started guide on how to &quot;explore&quot; fishbowl ?</p>\r\n<p>- I built the system successfully</p>\r\n<p>- However, I have problems opening the MainWindow in either VS2010 Designer view or Expression Blend ( In Expression Blend,&nbsp;I am getting an error message saying SystemParameter2 does not exit in namespace Microsoft.Windows.Shell</p>\r\n<p>Thanks a lot</p>\r\n<p>Frank</p>\r\n",
+    "PostedDate": "2010-12-14T14:31:56.203-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "535829",
+    "ThreadId": "238383",
+    "Html": "\r\n<p>If I remember right, the problem with blend probably is that it doesn't understand how to open the x86 project and the anycpu one may not have all the dependencies properly registered.&nbsp; blend 4 is much better at visualizing the project than 3 was&nbsp;because\r\n so many of the visuals are indirectly loaded from resource dictionaries at runtime.&nbsp; What is the error vs gives you?</p>\r\n<p>There isn't a getting started guide available, but if you have any questions I'll do my best to answer, or if you change a ything in your copy that makes it easier to understand or just generally better I can also try to incorporate patches.</p>\r\n",
+    "PostedDate": "2010-12-14T14:53:54.43-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "536069",
+    "ThreadId": "238383",
+    "Html": "\r\n<p>Hi Joe,</p>\r\n<p>thanks so much for the quick reply. When trying to open the main window in the designer in VS2010, I get</p>\r\n<p>Error&nbsp;7 Attachable property 'WindowExtensions.HwndBackgroundBrush' cannot be attached to objects of type 'FrameworkElement'.&nbsp;C:\\Projects\\FacebookClientV1\\Fishbowl\\MainWindow.xaml&nbsp;26&nbsp;9&nbsp;Fishbowl</p>\r\n<p>Best<br>\r\nFrank</p>\r\n",
+    "PostedDate": "2010-12-15T04:03:27.717-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "536178",
+    "ThreadId": "238383",
+    "Html": "\r\n<p>Joe, while you read the previous post, is it okay to post a freelancer job request in the discussion forum. I guess not, right ?</p>\r\n",
+    "PostedDate": "2010-12-15T08:07:33.357-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "536181",
+    "ThreadId": "238383",
+    "Html": "\r\n<p>I thought I had fixed that particular issue, but the change must have gotten lost... The problem is that the attached dependency property only works on Window, but the design surface uses a proxy class that doesn't inherit from Window.&nbsp; If you modify\r\n the code in WindowExtensions to check for IsInDesignMode&nbsp;and&nbsp;exit before&nbsp;it tries to use the property as a Window that should fix the problem.&nbsp; I'm not going to be&nbsp;near a computer to check in that change&nbsp;until next year&nbsp;(typing&nbsp;this\r\n on my phone), but i will when i am back.</p>\r\n<p>hope that helps</p>\r\n",
+    "PostedDate": "2010-12-15T08:13:35.34-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "550100",
+    "ThreadId": "238383",
+    "Html": "\r\n<p>Hi Joe,</p>\r\n<p>Im getting the same error, but I am unable to fix it.</p>\r\n<p>Can you please be more precisely how to fix this issue?</p>\r\n<p>Thanks.</p>\r\n",
+    "PostedDate": "2011-01-16T05:16:08.94-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "550862",
+    "ThreadId": "238383",
+    "Html": "\r\n<p>It looks like the DesignMode check is present in the HwndBackgroundExtension.&nbsp; VisualStudio's designer seems to just not like that there isn't a static Setter that has the signature of a FrameworkElement.</p>\r\n<p>If you change the signature of Set/GetHwndBackgroundBrush in WindowExtensions.cs to be FrameworkElement instead of Window it gets past this error (I need to do something additional to ensure that non-Window classes are only set in design mode...).</p>\r\n<p>That leads to the next error being a null deref in MainContentContainer OnLoaded, which is easily fixable by putting if (System.ComponentModel.DesignerProperties.GetIsInDesignMode(this)) { return; } into both OnLoaded and OnUnloaded.&nbsp;</p>\r\n<p>That leads to the next error about SimpleButtonStyle not being found, and&nbsp;that's probably just a default theme resource dictionary not being found, but I don't have time right now to look deeper into it.&nbsp; If I get a chance I'll update the sources\r\n so the main page will load, but you should be able to follow those steps to get past the first couple errors and you may be able to get the window loading in the designer before I have time to.</p>\r\n",
+    "PostedDate": "2011-01-17T15:03:56.17-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

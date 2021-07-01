@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I was adding people to the list of the people i wanted to be notified about when they have their birthday. \nThe page was renderen in http mode and the page just switched from https to http mode in order to have access to data.\n \nSomething happened to Fishbowl that it wasn't expecting.\nWhat follows is some information that would be helpful to the developer\nto fix the issue.  It would be great if you could paste the content of this\nfile to http://fishbowl.codeplex.com/workitem/list/basic, along with a brief\ndescription of what you were doing.\n \nThanks!\n \nEnvironment Info:\n\tProcessor Count: 4\n\tOS Version: Microsoft Windows NT 6.1.7601 Service Pack 1\n\tProcessor Architecture: x86\n\tRuntime Version: 4.0.30319.235\n\tProcess Name: Fishbowl\n\tApplication Version: 2.0.5.13\n\tWorking Set: 21MB\n\tCommand Line: \"C:\\Users\\Kevin\\AppData\\Local\\Apps\\2.0\\3VM5OB4E.M9O\\A80JA1OH.ACX\\fish..tion_0000000000000000_0002.0000_0c798cbfb06d8bf5\\Fishbowl.exe\"\n\tDeployment Version: 2.0.7.16\n\tHas Shutdown Started: False\n \nException Information:\n \nContigo.FacebookException: Incorrect signature\n   at Standard.Utility.FailableFunction[T](Func`1 function)\n   at FacebookClient.UpdateStatusControlModern.<>c__DisplayClass8.<OnUpdateStatusCommand>b__4()\n   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)\n   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)\n   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)\n   at System.Threading.ThreadHelper.ThreadStart()",
+    "LastUpdatedDate": "2013-02-14T12:35:17.32-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2011-08-26T10:49:16.74-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Fishbool crashed with an exception using birthday reminder on facebook website",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 21414
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

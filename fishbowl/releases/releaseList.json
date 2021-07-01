@@ -1,0 +1,164 @@
+[
+  {
+    "Id": "0",
+    "Name": "Fishbowl 2.0.7",
+    "DevelopmentStatus": "Beta",
+    "Description": "Incremental release.  Fixing the issue that was preventing new users from being able to login.  Facebook changed some of the authentication URLs to respect the user setting for using HTTPS and it broke some of the login workflow for Fishbowl.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2011-05-31T12:58:10.357-07:00",
+    "Files": [
+      {
+        "Id": "501f17fd-d881-495f-a73e-57eca78250f9",
+        "FileName": "Fishbowl.application",
+        "Url": "./0/501f17fd-d881-495f-a73e-57eca78250f9",
+        "Type": "Application",
+        "UploadDate": "2011-05-31T12:57:46.55-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "Fishbowl 2.0.5",
+    "DevelopmentStatus": "Beta",
+    "Description": "Iterative release to address breaking changes from Facebook.  Old clients should automatically update to this one.\n\nThis release requires the user have .Net 4 installed on their system. Future releases will include an installer that handles that, but in the meantime please download it from here: http://www.microsoft.com/downloads/en/details.aspx?FamilyID=9cfb2d51-5ff4-4491-b0e5-b386f32c0992&displaylang=en, or search for \"Install .Net 4\" in your favorite search engine.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2011-03-19T21:33:29.003-07:00",
+    "Files": [
+      {
+        "Id": "1ecbdcb1-2519-472a-b0c8-e1b7177ca366",
+        "FileName": "Fishbowl.application",
+        "Url": "./1/1ecbdcb1-2519-472a-b0c8-e1b7177ca366",
+        "Type": "Application",
+        "UploadDate": "2011-03-19T21:33:29.363-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "Fishbowl 2.0.3",
+    "DevelopmentStatus": "Beta",
+    "Description": "Iterative updates to Fishbowl.  This release requires the user have .Net 4 installed on their system.  Future releases will include an installer that handles that, but in the meantime please download it from here: [url:http://www.microsoft.com/downloads/en/details.aspx?FamilyID=9cfb2d51-5ff4-4491-b0e5-b386f32c0992&displaylang=en], or search for \"Install .Net 4\" in your favorite search engine.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2010-12-06T18:09:30.677-08:00",
+    "Files": [
+      {
+        "Id": "1da67f58-0150-49cc-9bef-d213359d2cff",
+        "FileName": "Fishbowl.application",
+        "Url": "./2/1da67f58-0150-49cc-9bef-d213359d2cff",
+        "Type": "Application",
+        "UploadDate": "2010-12-06T18:07:48.04-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "Fishbowl 2.0.2.8",
+    "DevelopmentStatus": "Beta",
+    "Description": "Iterative release of Fishbowl.  Not intended for general use.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2010-08-26T16:02:19.777-07:00",
+    "Files": [
+      {
+        "Id": "b4161f03-9873-4d6e-af89-57fdd17b776d",
+        "FileName": "Fishbowl.application",
+        "Url": "./3/b4161f03-9873-4d6e-af89-57fdd17b776d",
+        "Type": "Application",
+        "UploadDate": "2010-08-26T16:02:20.027-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "Fishbowl 2.0.1.1",
+    "DevelopmentStatus": "Beta",
+    "Description": "First release of Fishbowl using .Net 4.  Contains bug fixes from the 1.5 release, including better font support.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2010-07-27T09:14:44.093-07:00",
+    "Files": [
+      {
+        "Id": "cab158fa-092c-4efa-ab85-59f19b320395",
+        "FileName": "Fishbowl.application",
+        "Url": "./4/cab158fa-092c-4efa-ab85-59f19b320395",
+        "Type": "Application",
+        "UploadDate": "2010-07-19T12:10:11.977-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "Fishbowl 1.5",
+    "DevelopmentStatus": "Stable",
+    "Description": "The current release is always available for download at http://fishbowlclient.com\n\nExperience your Facebook content in new ways with a trial desktop client application that lets you personalize how you read your newsfeed, update status, comment, like, browse and upload photos.\n\n1.5 is an update to Fishbowl with some bug fixes from the previous 1.4 release and some new themes that implement custom chrome.\n\nThe compiled binaries are available at http://fishbowlclient.com. The application had the ability to update itself if you obtained it from the website. If you already installed a previous version then you'll automatically get the new version soon just by running the app.\n\nFor the convenience of those where the ClickOnce installation at FishbowlClient.com doesn't work well, a zip with the compiled binaries is also provided as part of this release.  The real release at fishbowlclient.com is recommended if at all possible, as this offline installation will not automatically update itself.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2010-12-06T17:28:54.23-08:00",
+    "Files": [
+      {
+        "Id": "f7dae01b-2ca2-47f3-96bd-7f50bb5b8c06",
+        "FileName": "Fishbowl 1.5-src.zip",
+        "Url": "./5/f7dae01b-2ca2-47f3-96bd-7f50bb5b8c06",
+        "Type": "Source Code",
+        "UploadDate": "2010-07-08T17:35:33.54-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "Fishbowl 1.4",
+    "DevelopmentStatus": "Stable",
+    "Description": "The current release is always available for download at http://fishbowlclient.com\n\nExperience your Facebook content in new ways with a trial desktop client application that lets you personalize how you read your newsfeed, update status, comment, like, browse and upload photos.\n\n1.4 is an update to Fishbowl with many bug fixes and several new features, including support for Facebook's new (July 2010) permission model.\n\nThe compiled binaries are available at http://fishbowlclient.com. The application had the ability to update itself if you obtained it from the website. If you already installed a previous version then you'll automatically get the new version soon just by running the app.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2010-06-24T17:13:28.887-07:00",
+    "Files": [
+      {
+        "Id": "f91b7a5b-f370-4e8e-8338-0c424643b19a",
+        "FileName": "fishbowl-51571.zip",
+        "Url": "./6/f91b7a5b-f370-4e8e-8338-0c424643b19a",
+        "Type": "Source Code",
+        "UploadDate": "2010-06-24T17:13:27.62-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "7",
+    "Name": "Fishbowl v1.1",
+    "DevelopmentStatus": "Stable",
+    "Description": "The current release is always available for download at [url:http://fishbowlclient.com]\n\nExperience your Facebook content in new ways with a trial desktop client application that lets you personalize how you read your newsfeed, update status, comment, like, browse and upload photos.\n\nThis is an update to version 1.0 released in November.  This has a couple new features and numerous bug fixes, all of which is based on user feedback.  New things worth noting are basic inbox support, online buddy list, and the ability to launch Facebook chat.\n\nThe compiled binaries are available at [url:http://fishbowlclient.com].  The application had the ability to update itself if you obtained it from the website.  If you already installed the 1.0 version then you'll automatically get the new version soon.\n\nThis release is based on changeset 44231.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2009-12-17T17:04:47.037-08:00",
+    "Files": [
+      {
+        "Id": "af3293c6-c4af-4002-8359-765e261bab06",
+        "FileName": "fishbowl-44231.zip",
+        "Url": "./7/af3293c6-c4af-4002-8359-765e261bab06",
+        "Type": "Source Code",
+        "UploadDate": "2009-12-17T17:03:36.23-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "8",
+    "Name": "Fishbowl v1",
+    "DevelopmentStatus": "Stable",
+    "Description": "The current release is always available for download at [url:www.fishbowlclient.com]\n\nThe first release (1.0.0) corresponds (roughly) to changeset 41326 available on the Source Code tab.\nSince then we've deployed an update (1.0.1).  High level changes are:\n* Works behind proxy servers.\n* Performance improvements.\n** Less memory usage.\n** Less incremental bandwidth usage\n* Added a sync button.\n \n",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2009-12-01T10:19:14.647-08:00",
+    "Files": []
+  },
+  {
+    "Id": "9",
+    "Name": "Fishbowl 2.0.8",
+    "DevelopmentStatus": "Stable",
+    "Description": "Minor update to address some changes that have been made to Facebook's APIs.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2011-08-29T15:52:26.277-07:00",
+    "Files": [
+      {
+        "Id": "1840b564-a33f-46c9-9b2c-8a431be4ba54",
+        "FileName": "Fishbowl.application",
+        "Url": "./9/1840b564-a33f-46c9-9b2c-8a431be4ba54",
+        "Type": "Application",
+        "UploadDate": "2011-08-29T15:52:27.59-07:00"
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "619461",
+    "ThreadId": "259298",
+    "Html": "\r\n<p>The error &quot; An attempt was made to&nbsp;navigate an unexpected URL, please restart Fishbowl to login&quot; appears each time I try to login.</p>\r\n<p>Is there any fix for this issue?</p>\r\n",
+    "PostedDate": "2011-05-27T10:44:25.2-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "619614",
+    "ThreadId": "259298",
+    "Html": "<p>[I replied privately, but reposting here in case others hit this]</p>\r\n<p>I haven't seen this happen before. Is your facebook account associated with a different domain than Facebook.com? When that error comes up in Fishbowl it's supposed to open an external browser at the URL that you were being redirected to. Can you post what that is?&nbsp;</p>\r\n<p>The code is attempting to exit Fishbowl if you click Cancel or click on an ad in one of the facebook pages that takes you outside of the login workflow, but if Facebook is doing something unexpected with their redirects then you'd hit this.</p>",
+    "PostedDate": "2011-05-27T15:52:24.577-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "620995",
+    "ThreadId": "259298",
+    "Html": "<p>It looks like the reason this has been happening to people is that Facebook switched to navigate to HTTPS versions of their login URLs depending on the account settings.&nbsp; I think I've fixed Fishbowl in 2.0.7 to properly handle this, but I'm not able to repro with my account.&nbsp; If anyone continues to see this please let me know.</p>",
+    "PostedDate": "2011-05-31T13:03:26.337-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "910560",
+    "ThreadId": "259298",
+    "Html": "<p>I have this issue as well...</p>\r\n<p>The login process succeeds, it's just the application (wpf) doesn't understands facebook reply's.</p>\r\n<p>After login in, I get to the following URL (hiding some of it) :</p>\r\n<p><a href=\"https://www.facebook.com/connect/login_success.html?session={session_key:46266d4304c3c9621e23a5cb.0-703036399,uid:703036399,expires:0,secret:09d652c1e6f722e91cfe55c86fe90fa7,base_domain:codeplex.com,sig:d80d66ab542c6af4be125f8211c15e96}\">https://www.facebook.com/connect/login_success.html?session={session_key:46266d.........1e23a5cb.0-703?????9,uid:70??????99,expires:0,secret:09d652c1e.......91cfe55c86fe90fa7,base_domain:codeplex.com,sig:d80d66ab542????96}</a></p>\r\n<p>&nbsp;</p>\r\n<p>So I believe LoginPage.xaml.cs conditions have to change...</p>\r\n<p>Please let me know if you know what's needs to be changed.</p>",
+    "PostedDate": "2012-09-10T11:38:51.107-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

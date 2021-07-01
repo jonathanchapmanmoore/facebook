@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "It would be nice to have support for touch and maybe multitouch gestures.",
+    "LastUpdatedDate": "2013-02-14T12:35:20.69-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2010-04-15T20:05:25.39-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Support for touch",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 17264
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "It actually does have support for some touch.  The photos should be able to be scaled and moved using gestures.  The newsfeed and friend bar bouth support panning gestures using touch.\r\n\r\nOnce I'm able to move the codebase over to .Net 4 I also will be able to switch to the Surface Toolkit for some of these, to make the touch experience _much_ better.\r\n\r\nWhich areas in particular are you interested in seeing better touch support?",
+      "PostedDate": "2010-04-16T09:14:48.27-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:35:20.69-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

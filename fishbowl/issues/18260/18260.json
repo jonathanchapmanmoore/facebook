@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Instead of the mini-view could you make a desktop gadget of the same finctionality.",
+    "LastUpdatedDate": "2013-02-14T12:35:19.433-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2010-07-20T00:02:37.647-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Mini view",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 18260
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "What is it about a gadget that's better than the current design?",
+      "PostedDate": "2010-08-03T21:37:36.79-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:35:19.433-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

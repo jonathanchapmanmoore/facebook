@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Application UI",
+      "DisplayName": "Application UI"
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Currently when you drop a file onto the app it starts the photo upload wizard.  If the upload wizard is already started, it resets it with the new data.  Instead of this it should add the new file to what's already in the list.\n \nWe should also enforce a limit of the number of files that can be uploaded at a time.",
+    "LastUpdatedDate": "2013-02-14T12:35:21.663-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2010-02-11T08:00:45.44-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Dragging more photos onto the app should be additive",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 16307
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

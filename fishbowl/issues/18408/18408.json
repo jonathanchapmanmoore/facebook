@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Application UI",
+      "DisplayName": "Application UI"
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Translations!",
+    "LastUpdatedDate": "2017-11-27T18:04:07.897-08:00",
+    "PlannedForRelease": "v.Next",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2010-08-05T14:30:42.78-07:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Add activity post and comment translations using Bing",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 18408
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

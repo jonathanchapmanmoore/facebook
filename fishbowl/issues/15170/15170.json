@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The label in the options menu to turn off automatic updates is kind of misleading. It says\"disable automatic updates\". Per a facebook thread on the Fishbowl group I learned that this also (http://www.facebook.com/topic.php?uid=148573025964&topic=14468) it not only turns off auto updates but acutally turns up all update checking. \n \n \nThis option should be reworded or preferably made two seperate options.",
+    "LastUpdatedDate": "2013-02-14T12:35:22.413-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2009-12-03T13:52:18.667-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Auto update label in options",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 15170
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,71 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "External",
+      "DisplayName": "External"
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": "Blocked",
+    "Description": "This issue is minor and comsmetic in nature.\n \nIssue:\nThe icon used in Programs and Features in Vista/Win 7 does not scale if the view is set to Medium, Large or Extra large icons.\nThe attached screenshot shows AIM 7, Avic Feeds, Bing Maps, and Deep Freeze Enterprise scaling corectly, while the fishbowl app does not.\n \nExpected results:\nFor the application to fit in well with Windows Vista/7 the icon should be high resolution and scaloe to the medium, large and extra large icons.",
+    "LastUpdatedDate": "2013-02-14T12:35:23.907-08:00",
+    "PlannedForRelease": "v.Next",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2009-11-30T16:10:44.257-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Icon in Add/Remove programs should be consistent and higher quality",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 15120
+  },
+  "FileAttachments": [
+    {
+      "FileId": 2562,
+      "FileName": "Fishbolw not scaled.png",
+      "DownloadUrl": ".\\2562"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Good catch.  That icon is the default ClickOnce icon.  I'm not sure how to override it, but I'll look into it.",
+      "PostedDate": "2009-12-01T08:54:08.467-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "It turns out that this is a limitation of ClickOnce.  Since we're using them for our deployment there's nothing we can currently do about it.\r\nIf we change the way we deploy and update the application, or if ClickOnce enables this functionality we can fix this.",
+      "PostedDate": "2009-12-01T13:44:23.097-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "That stinks. So that feaure is owned by the .net team. Hopefully they can somehow fix that in the future.",
+      "PostedDate": "2009-12-03T13:36:09.67-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-12-05T08:19:08.393-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:35:23.907-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

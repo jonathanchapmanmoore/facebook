@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "362941",
+    "ThreadId": "155414",
+    "Html": "<p>What is the most uptodate technique to interact with facebook using wpf?</p>\r\n<p>Or briefly.. &nbsp;<span style=\"text-decoration:underline\">facebook_connect </span><strong>VS </strong><span style=\"text-decoration:underline\">facebook_API</span> ???</p>\r\n<p>I need the most discreet technique, meaning&nbsp;using background code and avoiding facebook-popup windows</p>\r\n<p>&nbsp;</p>\r\n<p>Thank you :)</p>",
+    "PostedDate": "2010-02-22T17:06:00.573-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "362950",
+    "ThreadId": "155414",
+    "Html": "<p>Ultimately everything in Facebook is just REST calls.&nbsp; You have to host their login page to authenticate&nbsp;and then you just make web calls against their servers.</p>\r\n<p>Contigo is a standalone DLL that Fishbowl uses for connecting to Facebook.&nbsp; All the source is available through Codeplex, but I think it should generally work as-is for most purposes.&nbsp; It exposes a FacebookService object that has notifiable collections of different Facebook data that you can bind to, such as the NewsFeed, Albums and Friends, and then it automatically updates those at different intervals.&nbsp; It's pretty straightforward to use these collections from WPF UI.&nbsp; There are some things in Facebook that aren't exposed because I haven't had time to build it out (e.g. Pages and&nbsp;Events) and some other things like FQL that I'm intentionally not exposing because of the way the collections work.</p>\r\n<p>Alternatively there's the Facebook Developer Toolkit (<a href=\"http://facebooktoolkit.codeplex.com/\">http://facebooktoolkit.codeplex.com/</a>) but it doesn't look like it's being maintained.&nbsp; If you'd like you can try using Contigo to see if it works for your needs.&nbsp; I can try to support issues you find with it.&nbsp; If you want more direct access to anything, you can look at the source as an example of how to interact directly with Facebook.</p>\r\n<p>Hope that helps,</p>\r\n<p>-Joe</p>",
+    "PostedDate": "2010-02-22T17:35:16.91-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "363295",
+    "ThreadId": "155414",
+    "Html": "Thank you very much for your answer :)<div><br></div><div>I'll definatelly give it a try, your support would be really valuable</div><div><br></div><div>Dimitris</div><div><br><br><div>On Tue, Feb 23, 2010 at 3:35 AM, JoeCastro <span dir=ltr>&lt;<a href=\"mailto:notifications@codeplex.com\">notifications@codeplex.com</a>&gt;</span> wrote:<br>\r\n<blockquote style=\"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex\">   <div> <p>From: JoeCastro</p> <div><p> If you'd like you can try using Contigo to see if it works for your needs.  I can try to support issues you find with it.  If you want more direct access to anything, you can look at the source as an example of how to interact directly with Facebook.</p>\r\n\r\n<p>Hope that helps,</p>\r\n<p>-Joe</p></div></div></blockquote></div></div>",
+    "PostedDate": "2010-02-23T10:53:54.203-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "282542",
+    "ThreadId": "82247",
+    "Html": "<p>Hi all,</p>\r\n<p>First of all would like to say that Fishbowl is a great way to interact with Facebook, however I have noticed some odd behaviour with profile photos.&nbsp; Should one of your friends not have set&nbsp;a profile photo&nbsp;yet it appears as though fishbowl&nbsp;arbitrarily selects a photo of another of your friends to represent them.&nbsp; This can be quite confusing, is anyone able to verify that they see the same issue?</p>\r\n<p>Thanks</p>\r\n<p>Lee</p>",
+    "PostedDate": "2010-01-27T16:35:38.797-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "282600",
+    "ThreadId": "82247",
+    "Html": "<p>Yep, it's a known issue fixed in current builds and a regression from the earlier releases.&nbsp; I'm trying to polish some of the new&nbsp;features that are currently checked in and we'll push out an update soon afterwards.</p>",
+    "PostedDate": "2010-01-27T21:31:13.29-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "286958",
+    "ThreadId": "82247",
+    "Html": "<p>I suppose it would be dangerous to hold my breath awaiting the aforementioned update.&nbsp; The anticipation...</p>\r\n<p>Trevor</p>",
+    "PostedDate": "2010-02-07T21:02:17.647-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "287201",
+    "ThreadId": "82247",
+    "Html": "<p>It may be a&nbsp;little dangerous.&nbsp; One of the features for the new release is having more issues than I expected and is taking a while to work them all out.&nbsp; If you're interested in trying the new version before it's published and aren't in a position where you can build from source feel free to contact me directly and I can send you a copy of what I currently have.</p>\r\n<p>&nbsp;</p>\r\n<p>More generally it may be worth it to setup a release that I can update more frequently with incremental changes.&nbsp; I'm generally trying to avoid pushing out updates too frequently and ensure that there's substance to the changes.&nbsp; If we had a dev-build release then I can update it when some features are still slightly incomplete or when trying something new.</p>",
+    "PostedDate": "2010-02-08T08:50:27.35-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "287339",
+    "ThreadId": "82247",
+    "Html": "<p>Just prompts me to get a wriggle on and download the source and built it - as I said ages ago&nbsp;I would do.&nbsp; 46365 now built and running here!</p>\r\n<p>&nbsp;</p>\r\n<p>Trevor</p>",
+    "PostedDate": "2010-02-08T15:27:45.277-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

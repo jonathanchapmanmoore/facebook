@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "259721",
+    "ThreadId": "75913",
+    "Html": "<p>I love the project and haven't really encountered any major bugs so far.&nbsp; Good work!&nbsp; The only problem I have found is when the program is minimized to the taskbar.&nbsp; If you click one of the popup buttons it will change the page in the actual program but it does not change the preview window.&nbsp; Is it possible for real time updates in the preview window?</p>",
+    "PostedDate": "2009-11-23T00:07:15.637-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "259837",
+    "ThreadId": "75913",
+    "Html": "<p>Thanks for the feedback.&nbsp; It takes a bit of work to override Window's default behavior here, but it's doable.&nbsp; I'll open an issue to track, but hopefully we can get this fixed in an upcoming release.</p>",
+    "PostedDate": "2009-11-23T07:55:01.54-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "259838",
+    "ThreadId": "75913",
+    "Html": "This discussion has been copied to a work item. Click <a href=\"http://fishbowl.codeplex.com/WorkItem/View.aspx?WorkItemId=15038\">here</a> to go to the work item and continue the discussion.",
+    "PostedDate": "2009-11-23T07:55:45.19-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

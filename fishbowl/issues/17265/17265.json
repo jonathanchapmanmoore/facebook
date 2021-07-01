@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Currently, some UX items are cut off when viewed on a tablet PC setup in portrait mode. It would be nice to have the app tested in Portrait mode on a tablet PC",
+    "LastUpdatedDate": "2013-02-14T12:35:20.507-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2010-04-15T20:11:20.34-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Support for portrait mode in tablets",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 17265
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "What's the screen resolution where you're seeing problems?  Any UX elements in particular?\r\n\r\nThanks,",
+      "PostedDate": "2010-04-16T09:15:59.493-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:35:20.507-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

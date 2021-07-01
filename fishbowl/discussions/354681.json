@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "832638",
+    "ThreadId": "354681",
+    "Html": "\r\n<p>When I Open Fishbowl &amp; login with my facebook account its need apps permission. I give all permission, but after give all permission its show &quot;<strong>Fishbowl Requires additional permission to work properly</strong>&quot; . See the picture.</p>\r\n<p>&nbsp;</p>\r\n<p><img src=\"http://s14.postimage.org/6rzvrprg1/Capture.png\" alt=\"\"></p>\r\n<p>&nbsp;</p>\r\n<p>Please fixed this issue. I'm very excited for use this.</p>\r\n<p>&nbsp;</p>\r\n<p>Thanks to Fishbowl team for make this great apps.</p>\r\n",
+    "PostedDate": "2012-05-06T00:54:47.353-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "836378",
+    "ThreadId": "354681",
+    "Html": "<p>i get same message any update on this?</p>",
+    "PostedDate": "2012-05-14T20:32:41.337-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "844300",
+    "ThreadId": "354681",
+    "Html": "<p>I would also want a solution :(</p>",
+    "PostedDate": "2012-06-04T03:38:25.617-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "845104",
+    "ThreadId": "354681",
+    "Html": "\r\n<p>Facebook changed their permissions model and removed offline_access, which Fishbowl was using.&nbsp; They've kept the ability to rollback the change for now, and I've done that in the app settings, so Fishbowl will now work again.&nbsp; The change will be\r\n permanent on July 5 so it will only work until then.</p>\r\n<p>This project has been entirely abandoned by Microsoft (I also am no longer with Microsoft, which is also why I've avoided pushing new updates to the app).&nbsp; If there's interest in continuing development as an open source project the license that the\r\n source is published with a license that allows it.&nbsp; I think there are a lot of interesting things that could be done with a&nbsp;native Facebook client to compliment the web experience.</p>\r\n",
+    "PostedDate": "2012-06-05T10:42:26.19-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

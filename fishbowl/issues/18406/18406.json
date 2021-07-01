@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Data model",
+      "DisplayName": "Data model"
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Setting the interest level isn't having the proper effect on the newsfeed.",
+    "LastUpdatedDate": "2017-11-27T18:04:07.653-08:00",
+    "PlannedForRelease": "v.Next",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2010-08-05T14:20:06.763-07:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Interest level isn't hiding posts from uninteresting people",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 18406
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

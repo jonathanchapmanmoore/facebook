@@ -1,0 +1,90 @@
+[
+  {
+    "Id": "260117",
+    "ThreadId": "76050",
+    "Html": "<p>My Fishbowl doesn't show the <strong>timestamp</strong> in the Facebook notifications...</p>\r\n<p>&iquest;Is this normal?</p>\r\n<p>Thanks!</p>",
+    "PostedDate": "2009-11-23T23:40:09.61-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "260240",
+    "ThreadId": "76050",
+    "Html": "This discussion has been copied to a work item. Click <a href=\"http://fishbowl.codeplex.com/WorkItem/View.aspx?WorkItemId=15044\">here</a> to go to the work item and continue the discussion.",
+    "PostedDate": "2009-11-24T07:46:04.747-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "260241",
+    "ThreadId": "76050",
+    "Html": "<p>It's just not yet implemented.&nbsp; I opened a bug to add it.</p>",
+    "PostedDate": "2009-11-24T07:46:59.72-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "267748",
+    "ThreadId": "76050",
+    "Html": "<p>Is it just me, or have the timestamps, which appeared as of the most recent update, stopped working as of about 12 Dec?&nbsp; Happens to me on any machine from whch I run Fishbowl.</p>",
+    "PostedDate": "2009-12-15T14:07:19.91-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "267751",
+    "ThreadId": "76050",
+    "Html": "<p>Which timestamps?&nbsp; I haven't added them for notifications yet.&nbsp; Newsfeed posts should have always had them...</p>",
+    "PostedDate": "2009-12-15T14:09:54.34-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "267826",
+    "ThreadId": "76050",
+    "Html": "<p><span>Newsfeed timestamps.&nbsp; I never had them originally.&nbsp; After the upgrade to 1.0.1.195 I had timestamps on all newsfeed posts.&nbsp; But as of 11-Dec I&rsquo;ve had none again on any new posts in the newsfeed.</span></p>\r\n<p><span>Trevor</span></p>\r\n<p><span>&nbsp;</span></p>\r\n<p><span>(Sorry I was a bit hasty adding to this thread on notification timestamps)</span></p>",
+    "PostedDate": "2009-12-15T17:07:40.403-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "267827",
+    "ThreadId": "76050",
+    "Html": "<p>Weird.&nbsp; Can you send me a screenshot of your newsfeed?&nbsp; There should be a gray timestamp at the bottom of the content in the same row as the like and comment buttons.&nbsp; Nothing's changes since the 11th.</p>\r\n<p>If I can't figure out what's happening from that, would you mind if I send you a version with some extra diagnostics to try to fix this?</p>",
+    "PostedDate": "2009-12-15T17:12:00.627-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "267829",
+    "ThreadId": "76050",
+    "Html": "<p>Can do.&nbsp; I'll get it organised later this afternoon (Aus time).&nbsp; (I know exactly the gray timestamps you mean!)</p>",
+    "PostedDate": "2009-12-15T17:16:46.733-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "267852",
+    "ThreadId": "76050",
+    "Html": "<p>I think the problem is to do with Australian date order - i.e. dd/mm/yy.&nbsp; It appears not to display any date where the day is &gt; 12, apparently thinking it is an invalid month.&nbsp; I have properly displayed dates for all sorts of dates where the day is 1-12, but no displayed dates where the day is &gt;12.&nbsp; I can see this for entries in November and December.&nbsp; I only started looking at Fishbowl in November some time.</p>",
+    "PostedDate": "2009-12-15T19:36:55.093-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "268021",
+    "ThreadId": "76050",
+    "Html": "<p>That makes sense.&nbsp; It's unfortunately sloppy on my part :(&nbsp; I'll try to fix this for the next release.</p>",
+    "PostedDate": "2009-12-16T06:35:58.757-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "268022",
+    "ThreadId": "76050",
+    "Html": "This discussion has been copied to a work item. Click <a href=\"http://fishbowl.codeplex.com/WorkItem/View.aspx?WorkItemId=15452\">here</a> to go to the work item and continue the discussion.",
+    "PostedDate": "2009-12-16T06:37:23.383-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

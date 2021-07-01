@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When you receive a wall notification, it shows correctly both names and links to profiles but the publication doesn't. When you click the link you goes to receiver profile page instead of the post you want to see.",
+    "LastUpdatedDate": "2013-02-14T12:35:24.43-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2009-11-23T11:38:10.51-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Notification links take you to the user's page rather than the item",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 15040
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "The scenario is \"_UserA_ also commented on _UserB_'s _Link_\".  Clicking on _Link_ takes you to _UserB_'s page, not necessarily to the link.  Currently I parse the URL enough to notice that it's a link to a user that we can display within the app.  I don't parse the query part to see if it's related to a post that we are displaying.  If we're able to we should scroll it into view and ensure all comments are visible.  I'm not sure that the URL has enough public information to do this.",
+      "PostedDate": "2009-11-23T15:30:21.41-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-11-30T14:57:12.86-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-07-16T01:20:08.58-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-07-19T11:20:46.373-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:35:24.43-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

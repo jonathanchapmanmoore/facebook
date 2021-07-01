@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "258713",
+    "ThreadId": "75614",
+    "Html": "<p>Can you explain in more detail how this is related to the Microsoft Facebook SDK, aka the Facebook Developer Toolkit? &nbsp;I downloaded the source and didn't see references to the Facebook Developer Toolkit.</p>",
+    "PostedDate": "2009-11-19T08:18:43.523-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "258748",
+    "ThreadId": "75614",
+    "Html": "<p>They're conceptually related.&nbsp; Fishbowl does not reference the FDT.</p>\r\n<p>The Microsoft Facebook SDK is a good starting point for how to build something like Fishbowl.&nbsp; We didn't use it because it was still in development while writing Fishbowl and there were some different priorities between the two projects.&nbsp; Both were being developed quickly and it never reached a point where it&nbsp;made sense to converge the two.&nbsp; We were in contact with the team that was writing the&nbsp;developer toolkit v3; there are some designs that are shared between it and Fishbowl.</p>\r\n<p>The Developer Toolkit is much more designed to be a .Net wrapper for Facebook with multiple layers of abstraction available to suit varying needs depending on the situation.&nbsp; The WPF samples that are included with the current version of the toolkit are based on an older version of Fishbowl.</p>\r\n<p>Contigo is very specifically a WPF friendly wrapper on top of Facebook's data, not their APIs.&nbsp; E.g. FQL queries aren't exposed; updates happen automatically and the source collections raise&nbsp;change notifications;&nbsp;photo albums are a property exposed on a contact; for the most part the FKIDs are hidden from (or at least not necessary to use) the public object model.&nbsp; It's similar to the BindingHelpers part of the Developer Toolkit.&nbsp; The library in Fishbowl wasn't vetted or tested as a platform outside of the application.&nbsp; The FDT had more people focused on it for longer and should be more feature rich and polished.</p>\r\n<p>I hope that helps,</p>",
+    "PostedDate": "2009-11-19T09:29:42.807-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

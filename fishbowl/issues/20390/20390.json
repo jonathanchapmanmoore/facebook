@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2011-04-04T07:02:33.497-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Something happened to Fishbowl that it wasn't expecting.\nWhat follows is some information that would be helpful to the developer\nto fix the issue.  It would be great if you could paste the content of this\nfile to http://fishbowl.codeplex.com/workitem/list/basic, along with a brief\ndescription of what you were doing.\n \nThanks!\n \nEnvironment Info:\n\tProcessor Count: 4\n\tOS Version: Microsoft Windows NT 6.1.7600.0\n\tProcessor Architecture: x86\n\tRuntime Version: 4.0.30319.1\n\tProcess Name: Fishbowl\n\tApplication Version: 2.0.5.13\n\tWorking Set: 20MB\n\tCommand Line: \"C:\\Users\\Willie\\AppData\\Local\\Apps\\2.0\\D115RRLQ.LQL\\1Z7MJ0EX.9VP\\fish..tion_0000000000000000_0002.0000_2a09c57182981035\\Fishbowl.exe\"\n\tDeployment Version: 2.0.5.13\n\tHas Shutdown Started: False\n \nException Information:\n \nSystem.Xml.XmlException: '.', hexadecimal value 0x00, is an invalid character. Line 1, position 1.\n   at System.Xml.XmlTextReaderImpl.Throw(Exception e)\n   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)\n   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Char[] data, Int32 length, Int32 invCharPos)\n   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()\n   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()\n   at System.Xml.XmlTextReaderImpl.Read()\n   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)\n   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)\n   at Contigo.ServiceSettings._TryGetSessionInfo()\n   at Contigo.ServiceSettings..ctaor(String rootFolderPath)\n   at Contigo.ServiceSettings.Load(String rootFolderPath)\n   at Contigo.FacebookService..ctor(String appId, String appKey, Dispatcher dispatcher)\n   at ClientManager.ServiceProvider.Initialize(String facebookAppId, String facebookAppKey, String bingAppId, String[] parameters, Dispatcher dispatcher)\n   at FacebookClient.MainWindow..ctor()\n   at FacebookClient.FacebookClientApplication.OnStartup(StartupEventArgs e)\n   at System.Windows.Application.<.ctor>b__1(Object unused)\n   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)\n   at MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(Object source, Delegate method, Object args, Int32 numArgs, Delegate catchHandler)\n   at System.Windows.Threading.DispatcherOperation.InvokeImpl()\n   at System.Windows.Threading.DispatcherOperation.InvokeInSecurityContext(Object state)\n   at System.Threading.ExecutionContext.runTryCode(Object userData)\n   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)\n   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)\n   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)\n   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)\n   at System.Windows.Threading.DispatcherOperation.Invoke()\n   at System.Windows.Threading.Dispatcher.ProcessQueue()\n   at System.Windows.Threading.Dispatcher.WndProcHook(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)\n   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)\n   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)\n   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)\n   at MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(Object source, Delegate method, Object args, Int32 numArgs, Delegate catchHandler)\n   at System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)\n   at MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)\n   at MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)\n   at System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)\n   at System.Windows.Threading.Dispatcher.PushFrame(DispatcherFrame frame)\n   at System.Windows.Threading.Dispatcher.Run()\n   at System.Windows.Application.RunDispatcher(Object ignore)\n   at System.Windows.Application.RunInternal(Window window)\n   at System.Windows.Application.Run(Window window)\n   at FacebookClient.FishBowl.Main()",
+    "LastUpdatedDate": "2013-05-16T02:31:59.383-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2011-04-03T00:30:18.137-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Crash when running fishbowl 2.05",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 20390
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I know what's happening.  I'll fix this in Fishbowl, but in the meantime you should be able to fix it on your side by deleting the directory \"%LOCALAPPDATA%\\fishbowl\".",
+      "PostedDate": "2011-04-04T06:52:11.81-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Resolved with changeset 59299.",
+      "PostedDate": "2011-04-04T07:02:33.497-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:35:17.983-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T02:31:59.383-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

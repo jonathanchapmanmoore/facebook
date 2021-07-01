@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Application UI",
+      "DisplayName": "Application UI"
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2010-02-28T09:43:46.853-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Received report through email that FacebookService is doing parameter validation to ensure that status updates are neither null nor just whitespace and throws an argument exception.  The upper layers of the ViewModel should be doing similar validation and not let the UI post an empty status update.",
+    "LastUpdatedDate": "2017-11-27T18:04:06.88-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2010-02-23T14:06:18.78-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Status updates with all whitespace cause issues",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 16505
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Resolved with changeset 46943.",
+      "PostedDate": "2010-02-28T09:43:46.853-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-07-13T19:14:29.453-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:35:21.183-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T02:32:00.79-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T18:04:06.88-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "285690",
+    "ThreadId": "83121",
+    "Html": "<p>hi, im reviewing the code to understand how some of the things work</p>\r\n<p>but it fails to build.</p>\r\n<p>i have one error</p>\r\n<p>Error&nbsp;&nbsp; &nbsp;7&nbsp;&nbsp; &nbsp;The OutputPath property is not set for this project.&nbsp; Please check to make sure that you have specified a valid Configuration/Platform combination.&nbsp; Configuration='Debug'&nbsp; Platform='AnyCPU'&nbsp;&nbsp; &nbsp;FishBowl</p>\r\n<p>I looked into the FishBowl project and have several of the references with a yellow exclamation mark icon.</p>\r\n<p>i tried to remove and add the references back, but it doesn't help.</p>\r\n<p>i tried to remove and add the project itself back, but it doesn't work either.</p>\r\n<p>please help ! :)</p>",
+    "PostedDate": "2010-02-04T02:20:08.02-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "285845",
+    "ThreadId": "83121",
+    "Html": "<p>What are you using to build?&nbsp; E.g. VS 2008 Express, Blend 3, msbuild, VSTS... Which references was it giving warnings about?</p>\r\n<p>Yesterday I completely removed the AnyCPU configurations because we only publish Fishbowl as x86 and there was something strange with conflicting output paths that was making it so Blend wouldn't visualize resources.&nbsp; Before that I wasn't regularly building AnyCPU so there may have been something wrong with that configuration.&nbsp; Trying to build with the current source may help, too.</p>",
+    "PostedDate": "2010-02-04T08:49:49.4-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "286035",
+    "ThreadId": "83121",
+    "Html": "<p>thank you Joe ... i downloaded the latest source and it builds fine now.</p>",
+    "PostedDate": "2010-02-04T17:09:15.93-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

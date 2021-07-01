@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Data model",
+      "DisplayName": "Data model"
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2010-02-19T18:59:16.26-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "This is the single issue that prevents me from using Fishbowl. When you update your status using Fishbowl, for some reason the Facebook site treats it as an \"activity\" rather than a true status update. For an example of this, you can see when someone else comments on a status made by Fishbowl it reads as, \"xxx commented on your ACTIVITY\" (emphasis added). The main problem with this is that a lot of users have their homepages default to the \"Status Updates\" view (in the new interface, reached by selecting \"friends\" and then \"status updates in the sidebar) rather than the news feed. This results in a vast majority of friends not being able to see my status updates, and as such, defeats much of the usefulness of the program.",
+    "LastUpdatedDate": "2017-11-27T18:04:06.767-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2010-02-15T18:12:55.033-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Status updates are posted as \"activities\" instead of true status updates",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 16365
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Strange.  I hadn't noticed that before.  Facebook still thinks it's a status update because the it updates your profile.  I'll look into if there's a better way to do this, or if it's maybe just a bug in Facebook.",
+      "PostedDate": "2010-02-19T09:11:44.397-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Resolved with changeset 46624.",
+      "PostedDate": "2010-02-19T18:59:16.26-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-07-13T19:14:29.453-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:35:21.337-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T02:32:00.94-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T18:04:06.767-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

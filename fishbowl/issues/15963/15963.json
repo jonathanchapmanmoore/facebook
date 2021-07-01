@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Application UI",
+      "DisplayName": "Application UI"
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Should be able to minimize to the taskbar.",
+    "LastUpdatedDate": "2017-11-27T18:04:06.6-08:00",
+    "PlannedForRelease": "v.Next",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2010-01-18T14:58:56.593-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "App needs minimize to taskbar",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 2,
+    "Id": 15963
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

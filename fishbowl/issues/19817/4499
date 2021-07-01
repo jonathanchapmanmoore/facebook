@@ -1,0 +1,65 @@
+Something happened to Fishbowl that it wasn't expecting.
+What follows is some information that would be helpful to the developer
+to fix the issue.  It would be great if you could paste the content of this
+file to http://fishbowl.codeplex.com/workitem/list/basic, along with a brief
+description of what you were doing.
+
+Thanks!
+
+Environment Info:
+	Processor Count: 2
+	OS Version: Microsoft Windows NT 6.1.7601 Service Pack 1
+	Processor Architecture: x86
+	Runtime Version: 4.0.30319.1
+	Process Name: Fishbowl
+	Application Version: 2.0.2.8
+	Working Set: 28MB
+	Command Line: "C:\Users\Timg-admin\AppData\Local\Apps\2.0\1ECJJ73X.8RG\RJDP9W4C.WMW\fish..tion_0000000000000000_0002.0000_4799fe245541a435\Fishbowl.exe"
+	Deployment Version: 2.0.3.11
+	Has Shutdown Started: False
+
+Exception Information:
+
+System.Xml.XmlException: '.', hexadecimal value 0x00, is an invalid character. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Char[] data, Int32 length, Int32 invCharPos)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at Contigo.ServiceSettings._TryGetSessionInfo()
+   at Contigo.ServiceSettings..ctor(String rootFolderPath)
+   at Contigo.ServiceSettings.Load(String rootFolderPath)
+   at Contigo.FacebookService..ctor(String appId, String appKey, Dispatcher dispatcher)
+   at ClientManager.ServiceProvider.Initialize(String facebookAppId, String facebookAppKey, String bingAppId, String[] parameters, Dispatcher dispatcher)
+   at FacebookClient.MainWindow..ctor()
+   at FacebookClient.FacebookClientApplication.OnStartup(StartupEventArgs e)
+   at System.Windows.Application.<.ctor>b__1(Object unused)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(Object source, Delegate method, Object args, Int32 numArgs, Delegate catchHandler)
+   at System.Windows.Threading.DispatcherOperation.InvokeImpl()
+   at System.Windows.Threading.DispatcherOperation.InvokeInSecurityContext(Object state)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Threading.DispatcherOperation.Invoke()
+   at System.Windows.Threading.Dispatcher.ProcessQueue()
+   at System.Windows.Threading.Dispatcher.WndProcHook(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(Object source, Delegate method, Object args, Int32 numArgs, Delegate catchHandler)
+   at System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   at MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)
+   at System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   at System.Windows.Threading.Dispatcher.PushFrame(DispatcherFrame frame)
+   at System.Windows.Threading.Dispatcher.Run()
+   at System.Windows.Application.RunDispatcher(Object ignore)
+   at System.Windows.Application.RunInternal(Window window)
+   at System.Windows.Application.Run(Window window)
+   at FacebookClient.FishBowl.Main()

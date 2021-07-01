@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "265268",
+    "ThreadId": "77588",
+    "Html": "<p>Hello,</p>\r\n<p>I'm trying to open XAML pages in the UI designer of Visual Studio 2k8 SP1 and I'm getting errors like this :</p>\r\n<p>-------------------------------------------------------------------------</p>\r\n<p>MainWindow.xaml :</p>\r\n<p>Error&nbsp;1&nbsp;'MainWindow' TargetType does not match type of element 'NavigationWindow'.&nbsp;C:\\Users\\rbreval\\Desktop\\fishbowl-41326\\FacebookClient\\Fishbowl\\MainWindow.xaml&nbsp;25&nbsp;3&nbsp;FishBowl</p>\r\n<p>-------------------------------------------------------------------------</p>\r\n<p>MiniModeWindow.xaml :</p>\r\n<p>Error&nbsp;1&nbsp;Value '../Images/Controls/text_box_top_left.png' cannot be assigned to property 'Source'. Value does not fall within the expected range.&nbsp;C:\\Users\\rbreval\\Desktop\\fishbowl-41326\\FacebookClient\\Fishbowl\\MiniModeWindow.xaml&nbsp;223&nbsp;60&nbsp;FishBowl</p>\r\n<p>-------------------------------------------------------------------------</p>\r\n<p>Of course, projects compile and the application is working but I wonder how you can graphically edit the application with the designer. Is this normal and un-supported by VS ? Then how did you manage to design easilly the application ?</p>\r\n<p>&nbsp;</p>\r\n<p>Any light would be appreciated !</p>\r\n<p>Regards,</p>\r\n<p>Remi</p>",
+    "PostedDate": "2009-12-09T03:54:23.54-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "265371",
+    "ThreadId": "77588",
+    "Html": "<p>We have several patterns in the code that make it difficult for Blend and VS to visualize our XAML.&nbsp; There's too much indirection coming from ResourceDictionaries that the design tools can't follow and there's no sample data provided for any of the controls.&nbsp; It's something I'm going to try to cleanup when I have time, but right now support for this is pretty bad.</p>\r\n<p>I only did some of the design work for the project, but my workflow tended to be prototyping some of the more complicated things in Blend and then putting them into the project and tweaking them there.</p>",
+    "PostedDate": "2009-12-09T08:38:16.877-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

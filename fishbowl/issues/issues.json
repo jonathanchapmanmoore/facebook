@@ -1,0 +1,170 @@
+[
+  {
+    "Id": 15038,
+    "Title": "Minimized mini-mode window doesn't update DWM preview."
+  },
+  {
+    "Id": 15040,
+    "Title": "Notification links take you to the user's page rather than the item"
+  },
+  {
+    "Id": 15043,
+    "Title": "Diacritics"
+  },
+  {
+    "Id": 15044,
+    "Title": "Notifications are missing time-stamps"
+  },
+  {
+    "Id": 15120,
+    "Title": "Icon in Add/Remove programs should be consistent and higher quality"
+  },
+  {
+    "Id": 15145,
+    "Title": "Need ability to copy text from newsfeed and wall posts"
+  },
+  {
+    "Id": 15146,
+    "Title": "Add ability to hide people and pages from wall posts"
+  },
+  {
+    "Id": 15147,
+    "Title": "Add Chat"
+  },
+  {
+    "Id": 15148,
+    "Title": "Mini-mode as slideshow"
+  },
+  {
+    "Id": 15149,
+    "Title": "Add ability to see new messages"
+  },
+  {
+    "Id": 15153,
+    "Title": "Ability to hide apps from the news feed"
+  },
+  {
+    "Id": 15159,
+    "Title": "Friend requests marked as read need to stay read"
+  },
+  {
+    "Id": 15170,
+    "Title": "Auto update label in options"
+  },
+  {
+    "Id": 15191,
+    "Title": "Friend requests should appear in the jump list"
+  },
+  {
+    "Id": 15452,
+    "Title": "Non-US timestamps don't display"
+  },
+  {
+    "Id": 15963,
+    "Title": "App needs minimize to taskbar"
+  },
+  {
+    "Id": 16307,
+    "Title": "Dragging more photos onto the app should be additive"
+  },
+  {
+    "Id": 16308,
+    "Title": "Walls don't update when parked on a page"
+  },
+  {
+    "Id": 16365,
+    "Title": "Status updates are posted as \"activities\" instead of true status updates"
+  },
+  {
+    "Id": 16505,
+    "Title": "Status updates with all whitespace cause issues"
+  },
+  {
+    "Id": 16593,
+    "Title": "Make \"Keep me logged in\" optional"
+  },
+  {
+    "Id": 16642,
+    "Title": "Photo Uploads need to account for new, larger Facebook policies"
+  },
+  {
+    "Id": 17264,
+    "Title": "Support for touch"
+  },
+  {
+    "Id": 17265,
+    "Title": "Support for portrait mode in tablets"
+  },
+  {
+    "Id": 17650,
+    "Title": "Failed to bring window to foreground"
+  },
+  {
+    "Id": 18233,
+    "Title": "Add a newsfeed filter for \"Interesting\" friends"
+  },
+  {
+    "Id": 18244,
+    "Title": "Profile Picture Thumbnail"
+  },
+  {
+    "Id": 18260,
+    "Title": "Mini view"
+  },
+  {
+    "Id": 18406,
+    "Title": "Interest level isn't hiding posts from uninteresting people"
+  },
+  {
+    "Id": 18407,
+    "Title": "Add localization support"
+  },
+  {
+    "Id": 18408,
+    "Title": "Add activity post and comment translations using Bing"
+  },
+  {
+    "Id": 19440,
+    "Title": "Fishbowl 2 beta 2.0.3.11 Crash"
+  },
+  {
+    "Id": 19817,
+    "Title": "Crash on startup of app"
+  },
+  {
+    "Id": 19880,
+    "Title": "Add support for secure HTTP connection to facebook"
+  },
+  {
+    "Id": 20306,
+    "Title": "ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection."
+  },
+  {
+    "Id": 20390,
+    "Title": "Crash when running fishbowl 2.05"
+  },
+  {
+    "Id": 21026,
+    "Title": "Error while Installing the App. Please Help!"
+  },
+  {
+    "Id": 21042,
+    "Title": "error tmp277D"
+  },
+  {
+    "Id": 21383,
+    "Title": "Something happened to Fishbowl that it wasn't expecting."
+  },
+  {
+    "Id": 21414,
+    "Title": "Fishbool crashed with an exception using birthday reminder on facebook website"
+  },
+  {
+    "Id": 21776,
+    "Title": "Unnamed links loading forever bug report and a feature request"
+  },
+  {
+    "Id": 23732,
+    "Title": "Can't sign in Fishbowl"
+  }
+]

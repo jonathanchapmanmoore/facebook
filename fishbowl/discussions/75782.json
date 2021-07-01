@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "259272",
+    "ThreadId": "75782",
+    "Html": "<p>Hi,</p>\r\n<p>I'm from <strong>Seville, Spain</strong>.</p>\r\n<p>Browsing the Internet, I don't know how..., I've come across the Fishbowl website... I've downlaoded and tested it inmediately...&nbsp;</p>\r\n<p>So, first, I really want to thank the Project Members... <strong>Wonderful App</strong>!&nbsp;</p>\r\n<p>Now, i have to ask two forced questions (in my personal opinion):</p>\r\n<ol>\r\n<li>What do the Team of the Project 'Fishbowl' think about <strong>integrating other Social Networks</strong>, like Twitter, LinkedIn, Tuenti,... <strong>into Fishbowl</strong>? I think it would be, if possible, better application than today it is! :D</li>\r\n<li>Does the Project need a Spanish Translator? I really want to participate with the Project. <strong>('^^)</strong></li>\r\n</ol>\r\n<p>Thanks you very much. Greetings,</p>\r\n<p>iSVQ</p>",
+    "PostedDate": "2009-11-20T17:56:53.78-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "259845",
+    "ThreadId": "75782",
+    "Html": "<p>Hi,</p>\r\n<p>Thanks for the feedback.&nbsp; Integration with other social networks is an idea that we considered and which I think would make for a very valuable application.&nbsp; Right now it's outside the scope of Fishbowl.&nbsp; We're trying to focus on only a few things and do them really well, and we still have&nbsp;a ways to go with the features we've already started.&nbsp; We'll still consider adding other networks in a future version.</p>\r\n<p>Right now the application isn't factored in a way that we can easily translate it.&nbsp; We need to separate all displayable text in the code so we know what needs to be translated; it wasn't&nbsp;a goal when I was first working on it.&nbsp; It's a bit more complicated because Facebook also thinks you're logged in with a specific locale and sometimes displays text in Fishbowl based on that (such as the login page or the notifications).&nbsp; If we were to do translated versions we'd also&nbsp;want to integrate with that.</p>\r\n<p>For the point we're at with Fishbowl you're participating just by using it :)&nbsp;Reporting bugs and issues and missing features like this is valuable for us to decide what what we need to fix or what to do next.</p>",
+    "PostedDate": "2009-11-23T08:13:28.413-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "260066",
+    "ThreadId": "75782",
+    "Html": "<p>Hi again,</p>\r\n<p>OK! ;) If in the future you have the intention of translating, please, don't hesitate to contact me (for the Spanish language). :D</p>\r\n<p>I repeat, it's <strong>a big app!!</strong> ;-)</p>\r\n<p>Thanks!</p>",
+    "PostedDate": "2009-11-23T18:32:11.803-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "465797",
+    "ThreadId": "219014",
+    "Html": "<div>\r\n<div>\r\n<div>\r\n<div>\r\n<div>\r\n<div>\r\n<div>\r\n<p>Fishbowl is awesome. :D But it takes very long to load. Sometimes, up to ten minutes. What's the problem? Also, 'hidden' pages shouldn't show in the News Feed. Interest levels do not seem to be remembered after you sign out. The chat should be made inside the client itself.&nbsp;Another problem is that, often, in the chat, the names are listed twice. The chat doesn't seem to be working, I can't &quot;enter&quot; any new messages.</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>",
+    "PostedDate": "2010-07-10T07:02:09.377-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "465824",
+    "ThreadId": "219014",
+    "Html": "<p>&gt;&gt; Fishbowl is awesome. :D</p>\r\n<p>Thanks! :)&nbsp; It's still a work in progress.&nbsp; A lot of what you're seeing is&nbsp;just because it's not done.&nbsp;</p>\r\n<p>&gt;&gt; But it takes very long to load. Sometimes, up to ten minutes. What's the problem?</p>\r\n<p>It's hard to say.&nbsp; Sometimes there is latency or are errors from Facebook.&nbsp; It's also trying to do a bunch of things in parallel but some requests may get stuck behind others.&nbsp; I'll be working on improving this, and when it still does happen being able to identify why it does.&nbsp; If it ever takes more than 30 seconds I'd suspect that Facebook returned an error and clicking Refresh will cause it to repost.</p>\r\n<p>&gt;&gt; Also, 'hidden' pages shouldn't show in the News Feed.</p>\r\n<p>Yes, they shouldn't.&nbsp; I just haven't yet implemented that.</p>\r\n<p>&gt;&gt;&nbsp;Interest levels do not seem to be remembered after you sign out.</p>\r\n<p>That's a bug.&nbsp; It doesn't happen consistently.&nbsp; I'll look more into it.</p>\r\n<p>&gt;&gt; &nbsp;The chat should be made inside the client itself.&nbsp;Another problem is that, often, in the chat, the names are listed twice. The chat doesn't seem to be working, I can't &quot;enter&quot; any new messages.</p>\r\n<p>Doing real chat is a lot of work.&nbsp; The way I'm doing it now just launches Facebook's &quot;lite&quot; chat window.&nbsp; I think there have been transient issues with it.&nbsp; The duplicate names are also just a bug on my side, but I haven't yet figured out why they sometimes happen.</p>",
+    "PostedDate": "2010-07-10T09:48:11.44-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "465825",
+    "ThreadId": "219014",
+    "Html": "<p>Yeah, but this lag is quite consistent. But Facebook in a browser loads quite swiftly.</p>\r\n<p>I don't mind the current way of chat. But it doesn't work. :( I can't enter any messages in the 'lite' window, so I have to fall back to using the browser for chat.</p>",
+    "PostedDate": "2010-07-10T09:59:30.98-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am getting the following error while am trying to install the app.\n \n \nPLATFORM VERSION INFO\n\tWindows \t\t\t: 5.1.2600.196608 (Win32NT)\n\tCommon Language Runtime \t: 2.0.50727.1873\n\tSystem.Deployment.dll \t\t: 2.0.50727.1433 (REDBITS.050727-1400)\n\tmscorwks.dll \t\t\t: 2.0.50727.1873 (QFEN-1.050727-1800)\n\tdfdll.dll \t\t\t: 2.0.50727.1433 (REDBITS.050727-1400)\n\tdfshim.dll \t\t\t: 2.0.50727.1433 (REDBITS.050727-1400)\n \nSOURCES\n\tDeployment url\t\t\t: file:///D:/DOCUMENTS/Downloads/Fishbowl.application\n \nERROR SUMMARY\n\tBelow is a summary of the errors, details of these errors are listed later in the log.\n\t* Activation of D:\\DOCUMENTS\\Downloads\\Fishbowl.application resulted in exception. Following failure messages were detected:\n\t\t+ Exception reading manifest from file:///D:/DOCUMENTS/Downloads/Fishbowl.application: the manifest may not be valid or the file could not be opened.\n\t\t+ Manifest XML signature is not valid.\n\t\t+ No signature was present in the subject.\n \n \nCOMPONENT STORE TRANSACTION FAILURE SUMMARY\n\tNo transaction error was detected.\n \nWARNINGS\n\tThere were no warnings during this operation.\n \nOPERATION PROGRESS STATUS\n\t* [6/25/2011 10:58:05 AM] : Activation of D:\\DOCUMENTS\\Downloads\\Fishbowl.application has started.\n \nERROR DETAILS\n\tFollowing errors were detected during this operation.\n\t* [6/25/2011 10:58:05 AM] System.Deployment.Application.InvalidDeploymentException (ManifestParse)\n\t\t- Exception reading manifest from file:///D:/DOCUMENTS/Downloads/Fishbowl.application: the manifest may not be valid or the file could not be opened.\n\t\t- Source: System.Deployment\n\t\t- Stack trace:\n\t\t\tat System.Deployment.Application.ManifestReader.FromDocument(String localPath, ManifestType manifestType, Uri sourceUri)\n\t\t\tat System.Deployment.Application.DownloadManager.DownloadDeploymentManifestDirectBypass(SubscriptionStore subStore, Uri& sourceUri, TempFile& tempFile, SubscriptionState& subState, IDownloadNotification notification, DownloadOptions options, ServerInformation& serverInformation)\n\t\t\tat System.Deployment.Application.DownloadManager.DownloadDeploymentManifestBypass(SubscriptionStore subStore, Uri& sourceUri, TempFile& tempFile, SubscriptionState& subState, IDownloadNotification notification, DownloadOptions options)\n\t\t\tat System.Deployment.Application.ApplicationActivator.PerformDeploymentActivation(Uri activationUri, Boolean isShortcut, String textualSubId, String deploymentProviderUrlFromExtension)\n\t\t\tat System.Deployment.Application.ApplicationActivator.ActivateDeploymentWorker(Object state)\n\t\t--- Inner Exception ---\n\t\tSystem.Deployment.Application.InvalidDeploymentException (SignatureValidation)\n\t\t- Manifest XML signature is not valid.\n\t\t- Source: System.Deployment\n\t\t- Stack trace:\n\t\t\tat System.Deployment.Application.Manifest.AssemblyManifest.ValidateSignature(Stream s)\n\t\t\tat System.Deployment.Application.ManifestReader.FromDocument(String localPath, ManifestType manifestType, Uri sourceUri)\n\t\t--- Inner Exception ---\n\t\tSystem.Security.Cryptography.CryptographicException\n\t\t- No signature was present in the subject.\n \n\t\t- Source: System.Deployment\n\t\t- Stack trace:\n\t\t\tat System.Deployment.Internal.CodeSigning.SignedCmiManifest.Verify(CmiManifestVerifyFlags verifyFlags)\n\t\t\tat System.Deployment.Application.Manifest.AssemblyManifest.ValidateSignature(Stream s)\n \nCOMPONENT STORE TRANSACTION DETAILS\n\tNo transaction information is available.",
+    "LastUpdatedDate": "2013-02-14T12:35:17.827-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2011-06-24T23:58:28.49-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Error while Installing the App. Please Help!",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 21026
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "It looks like the error is probably due to not having .net 4 installed.  Please try installing that first.",
+      "PostedDate": "2011-06-25T19:20:48.077-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-10-28T02:18:24.027-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:35:17.827-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

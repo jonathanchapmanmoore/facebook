@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "i have the following problem: just after installing the application, a notepad window pops up saying what you can see below. i tried to remove the application and install it again 3 times but it seems to be not working. could you please help me with this one? i really have no ideawhat might be wrong. thank you in advance! \n \n'Something happened to Fishbowl that it wasn't expecting (...) Environment Info:\n\tProcessor Count: 2\n\tOS Version: Microsoft Windows NT 6.1.7601 Service Pack 1\n\tProcessor Architecture: x86\n\tRuntime Version: 4.0.30319.235\n\tProcess Name: Fishbowl\n\tApplication Version: 2.0.5.13\n\tWorking Set: 25MB\n\tCommand Line: \"C:\\Users\\golden_eye\\AppData\\Local\\Apps\\2.0\\JYZANWXW.C40\\LX58XTHW.LR0\\fish..tion_0000000000000000_0002.0000_0c798cbfb06d8bf5\\Fishbowl.exe\"\n\tDeployment Version: 2.0.7.16\n\tHas Shutdown Started: False\n \nException Information:\n \nSystem.ArgumentException: Szerokość i wysokość muszą być nieujemne.\n   w System.Windows.Size..ctor(Double width, Double height)\n   w System.Windows.Window.SourceWindowHelper.GetHwndNonClientAreaSizeInMeasureUnits()\n   w System.Windows.Window.GetHwndNonClientAreaSizeInMeasureUnits()\n   w System.Windows.Window.MeasureOverrideHelper(Size constraint)\n   w System.Windows.Window.MeasureOverride(Size availableSize)\n   w System.Windows.FrameworkElement.MeasureCore(Size availableSize)\n   w System.Windows.UIElement.Measure(Size availableSize)\n   w System.Windows.Interop.HwndSource.Process_WM_SIZE(UIElement rootUIElement, IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam)\n   w System.Windows.Interop.HwndSource.LayoutFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)\n   w MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)\n   w MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)\n   w System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)\n   w MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(Object source, Delegate method, Object args, Int32 numArgs, Delegate catchHandler)\n   w System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)\n   w MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)\n   w MS.Win32.UnsafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)\n   w System.Windows.Window.ShowHelper(Object booleanBox)\n   w System.Windows.Window.Show()\n   w FacebookClient.FacebookClientApplication.OnStartup(StartupEventArgs e)\n   w System.Windows.Application.<.ctor>b__1(Object unused)\n   w System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)\n   w MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(Object source, Delegate method, Object args, Int32 numArgs, Delegate catchHandler)\n   w System.Windows.Threading.DispatcherOperation.InvokeImpl()\n   w System.Windows.Threading.DispatcherOperation.InvokeInSecurityContext(Object state)\n   w System.Threading.ExecutionContext.runTryCode(Object userData)\n   w System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)\n   w System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)\n   w System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)\n   w System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)\n   w System.Windows.Threading.DispatcherOperation.Invoke()\n   w System.Windows.Threading.Dispatcher.ProcessQueue()\n   w System.Windows.Threading.Dispatcher.WndProcHook(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)\n   w MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)\n   w MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)\n   w System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)\n   w MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(Object source, Delegate method, Object args, Int32 numArgs, Delegate catchHandler)\n   w System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)\n   w MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)\n   w MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)\n   w System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)\n   w System.Windows.Threading.Dispatcher.PushFrame(DispatcherFrame frame)\n   w System.Windows.Threading.Dispatcher.Run()\n   w System.Windows.Application.RunDispatcher(Object ignore)\n   w System.Windows.Application.RunInternal(Window window)\n   w System.Windows.Application.Run(Window window)\n   w FacebookClient.FishBowl.Main()'",
+    "LastUpdatedDate": "2013-02-14T12:35:17.657-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2011-06-28T17:32:21.097-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "error tmp277D",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 21042
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

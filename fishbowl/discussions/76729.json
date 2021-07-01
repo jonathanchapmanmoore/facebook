@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "262359",
+    "ThreadId": "76729",
+    "Html": "<p>Hello and thanks for making this open source.&nbsp; I am new to WPF and thought this would be an awesome project to learn with.&nbsp; When I try to open the project in Visual Studio 2008 (full version), I get the following error: &quot;the source control provider associated with this solution could not be found.&nbsp; the projects will be treated as not under source control.&nbsp; Do you want to permanently remove the source control bindings from the projects?&quot;&nbsp; I choose &quot;No.&quot;&nbsp; Does anyone have more information regarding this as I have no clue - like I said, just learning and playing around.&nbsp; Many thanks in advance,</p>\r\n<p>&nbsp;</p>\r\n<p>Drew</p>",
+    "PostedDate": "2009-12-01T09:15:19.28-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "262372",
+    "ThreadId": "76729",
+    "Html": "<p>We use Visual Studio Team System which has integrated source control with Codeplex.&nbsp; The dialog is related to that.&nbsp; It should be ignorable.&nbsp; If you click &quot;Yes&quot; and save the changes it should stop showing up.</p>",
+    "PostedDate": "2009-12-01T09:56:05.243-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

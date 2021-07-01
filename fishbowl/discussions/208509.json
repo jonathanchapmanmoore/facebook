@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "428094",
+    "ThreadId": "208509",
+    "Html": "<p>Joe,</p>\r\n<p>As published build 49152 builds but fails to run because it can't find resource CommonFontResources.xaml.&nbsp; The reason is this file is included in the folder tree, but is NOT actually listed as part of the project.&nbsp; Include it and all is well.</p>\r\n<p>Trevor</p>",
+    "PostedDate": "2010-04-06T17:51:18.62-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "428367",
+    "ThreadId": "208509",
+    "Html": "<p>My mistake.&nbsp; Thanks for catching that.&nbsp; I just checked in the fix.</p>\r\n<p>There are three different project versions in the tree (.Net3.5SP1/VS2008, 3.5SP1/2010, 4.0/2010).&nbsp; Depending on how I am or anyone else is working on the project the other two versions don't get updated and have sometimes fallen out of sync.&nbsp; Usually I fix it up right away but I didn't notice this one.</p>\r\n<p>Once Visual Studio 2010 is readily available I'll drop the 2008 version of the project and this won't happen as much anymore.</p>",
+    "PostedDate": "2010-04-07T09:27:33.92-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

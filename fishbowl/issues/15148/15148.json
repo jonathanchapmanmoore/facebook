@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Application UI",
+      "DisplayName": "Application UI"
+    },
+    "ClosedComment": "Ahmad checked in this feature a while ago.",
+    "ClosedDate": "2010-02-11T08:04:22.557-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "From Fishbowl for Facebook page:\n \nhttp://www.facebook.com/group.php?gid=148573025964&ref=mf#/topic.php?uid=148573025964&topic=14378\n \nA nice feature would be if mini-mode could run as a slide show cycling through your friends' most recent status updates. Or can this be done already?\n--\nI didn't find mini-mode that useful at its present state. I must scroll between too many status updates and feeds, and in such a small screen it is completely useless. If it could work automatically it would be better.",
+    "LastUpdatedDate": "2013-05-16T02:32:01.757-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2009-12-02T09:52:43.197-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Mini-mode as slideshow",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 15148
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

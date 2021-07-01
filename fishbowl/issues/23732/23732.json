@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I can't sign in Fishbowl for Facebook.\nWhen me signing in to Facebook and complete.\nFacebook has show this error.\nAn error occurred. Please try again later.\nI will disable secure view(https) and sign in again.\nbut issue same.\nPlease fix it.",
+    "LastUpdatedDate": "2015-03-13T11:31:15.24-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2012-12-21T03:35:31.23-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Can't sign in Fishbowl",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 23732
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

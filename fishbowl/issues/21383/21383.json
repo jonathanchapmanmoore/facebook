@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Something happened to Fishbowl that it wasn't expecting.\nWhat follows is some information that would be helpful to the developer\nto fix the issue.  It would be great if you could paste the content of this\nfile to http://fishbowl.codeplex.com/workitem/list/basic, along with a brief\ndescription of what you were doing.\n \nThanks!\n \nEnvironment Info:\n\tProcessor Count: 4\n\tOS Version: Microsoft Windows NT 6.1.7601 Service Pack 1\n\tProcessor Architecture: x86\n\tRuntime Version: 4.0.30319.237\n\tProcess Name: Fishbowl\n\tApplication Version: 2.0.5.13\n\tWorking Set: 20MB\n\tCommand Line: \"C:\\Users\\acer\\AppData\\Local\\Apps\\2.0\\O3PQ2EV4.N9C\\Y05TLKBM.V8R\\fish..tion_0000000000000000_0002.0000_0c798cbfb06d8bf5\\Fishbowl.exe\"\n\tDeployment Version: 2.0.7.16\n\tHas Shutdown Started: False\n \nException Information:\n \nContigo.FacebookException: An unknown error occurred\n   at Standard.Utility.FailableFunction[T](Func`1 function)\n   at Contigo.FacebookWebApi.RemoveComment(FacebookObjectId commentId)\n   at Contigo.FacebookService.RemoveComment(ActivityComment comment)\n   at ClientManager.View.RemoveCommentCommand.PerformAction(Object parameter)\n   at ClientManager.View.ActionCommand.ExecuteInternal(Object parameter)\n   at ClientManager.View.ViewCommand.Execute(Object parameter)\n   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)\n   at System.Windows.Controls.Primitives.ButtonBase.OnClick()\n   at System.Windows.Controls.Button.OnClick()\n   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)\n   at System.Windows.UIElement.OnMouseLeftButtonUpThunk(Object sender, MouseButtonEventArgs e)\n   at System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)\n   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)\n   at System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)\n   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)\n   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)\n   at System.Windows.UIElement.OnMouseUpThunk(Object sender, MouseButtonEventArgs e)\n   at System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)\n   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)\n   at System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)\n   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)\n   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)\n   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)\n   at System.Windows.UIElement.RaiseEvent(RoutedEventArgs args, Boolean trusted)\n   at System.Windows.Input.InputManager.ProcessStagingArea()\n   at System.Windows.Input.InputManager.ProcessInput(InputEventArgs input)\n   at System.Windows.Input.InputProviderSite.ReportInput(InputReport inputReport)\n   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)\n   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)\n   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)\n   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)\n   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)\n   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)\n   at MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(Object source, Delegate method, Object args, Int32 numArgs, Delegate catchHandler)\n   at System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)\n   at MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)\n   at MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)\n   at System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)\n   at System.Windows.Threading.Dispatcher.PushFrame(DispatcherFrame frame)\n   at System.Windows.Application.RunDispatcher(Object ignore)\n   at System.Windows.Application.RunInternal(Window window)\n   at System.Windows.Application.Run(Window window)\n   at FacebookClient.FishBowl.Main()",
+    "LastUpdatedDate": "2013-02-14T12:35:17.493-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2011-08-23T22:06:57.54-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Something happened to Fishbowl that it wasn't expecting.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 21383
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

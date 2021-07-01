@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "265277",
+    "ThreadId": "77591",
+    "Html": "<p>Help. I am able to log in to Facebook, however, I get stuck at the&nbsp;Constant&nbsp;Authorization page. No matter how much I click on Allow, the page won't change. I am pretty sure it's an IE8 problem though.</p>",
+    "PostedDate": "2009-12-09T04:20:50.153-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "265372",
+    "ThreadId": "77591",
+    "Html": "<p>If clicking the buttons doesn't change the authorization page it may be a (hopefully transient) javascript problem with Facebook.&nbsp; Fishbowl just hosts Facebook's connect pages for login.</p>\r\n<p>If you are still having problems please contact me directly.&nbsp; I can try to debug what's happening.</p>\r\n<p>Thanks,</p>\r\n<p>-Joe</p>",
+    "PostedDate": "2009-12-09T08:47:01.477-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "265628",
+    "ThreadId": "77591",
+    "Html": "<p>Thanks for the quick reply, but it seems the problem has disappeared.&nbsp;</p>",
+    "PostedDate": "2009-12-10T02:11:26.19-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "265773",
+    "ThreadId": "77591",
+    "Html": "<p>Glad it's resolved.&nbsp; Facebook has been having weird problems over the last couple of days that are making Fishbowl look stupid :(</p>",
+    "PostedDate": "2009-12-10T09:04:20.837-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "540775",
+    "ThreadId": "239647",
+    "Html": "\r\n<p>Hello and Merry Christimas,</p>\r\n<p>I was surprised to find that the DrawingBrush class is being used in Fishbowl. I thought SL4 doesn't support DrawingBrush:</p>\r\n<ul>\r\n<li>Are we mixing WPF and SL here ? </li><li>How come that the DrawingBrush class can be used ? </li><li>How can I edit the images/icons ? For instance, the&nbsp;HomeDrawingBrush in DrawingResources.xaml ?\r\n</li></ul>\r\n<p>thanks a lot in advance</p>\r\n<p>Frank</p>\r\n<p>&nbsp;</p>\r\n",
+    "PostedDate": "2010-12-27T04:23:43.637-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "540787",
+    "ThreadId": "239647",
+    "Html": "\r\n<p>I found that we are using the StreamGeometry for displaying the icons. Not sure why we have the DrawingBrush class in there..</p>\r\n",
+    "PostedDate": "2010-12-27T04:54:44.123-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "541024",
+    "ThreadId": "239647",
+    "Html": "\r\n<p>Fishbowl is strictly WPF, no Silverlight involved.&nbsp; The drawing brush is used to visualize the various geometries.&nbsp; To edit them I usually just copy the geometries into blend to tweak them independent of everything else.</p>\r\n<p>Hope that helps.</p>\r\n",
+    "PostedDate": "2010-12-27T18:48:16.25-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "541282",
+    "ThreadId": "239647",
+    "Html": "\r\n<p>Thanks Joe. I am confused to hear this. Everywhere on the internet it says MS is using Fishbowl to demo Silverlight</p>\r\n<p><a href=\"http://dotnetwizard.net/soft-apps/fishbowl-is-a-silverlight-powered-desktop-facebook-application-from-microsoft\">http://dotnetwizard.net/soft-apps/fishbowl-is-a-silverlight-powered-desktop-facebook-application-from-microsoft</a></p>\r\n<p><a href=\"http://www.technospot.net/blogs/fish-bowl-microsoft-launches-silverface-based-facebook-client/\">http://www.technospot.net/blogs/fish-bowl-microsoft-launches-silverface-based-facebook-client/</a></p>\r\n<p>Best<br>\r\nFrank</p>\r\n<p>&#65279;&#65279;&#65279;</p>\r\n",
+    "PostedDate": "2010-12-28T10:12:34.35-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "543849",
+    "ThreadId": "239647",
+    "Html": "\r\n<p>There was some confusion when Fishbowl first launched because there was also a Silverlight client that was being developed in parallel, and was shown at PDC at the same time Fishbowl was released.&nbsp; Corrections were sent to most of the articles that\r\n covered Fishbowl and incorrectly attributed the platform to be Silverlight.&nbsp; The Silverlight version became Telerik's Facebook client, but the source is not currently available.&nbsp; It doesn't share a codebase with Fishbowl, but I was in communication\r\n with the original developers of the other application and there are some shared ideas between the two.</p>\r\n",
+    "PostedDate": "2011-01-04T10:45:10.54-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "561125",
+    "ThreadId": "239647",
+    "Html": "\r\n<p>That's too bad. Are there other Silverlight projects that you are aware of that I can study?</p>\r\n",
+    "PostedDate": "2011-02-04T22:18:26.787-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "562332",
+    "ThreadId": "239647",
+    "Html": "\r\n<p>It depends on what you want to study out of it.&nbsp; WPF is pretty similar to Silverlight for the most part.&nbsp; It would take work, but this app could be ported to Silverlight.&nbsp; Things gleaned from studying Fishbowl would to a large extent map to\r\n Silverlight.</p>\r\n<p>I don't know of any Silverlight apps that have been written that are of this scale.&nbsp; Looking for Windows Phone 7 apps and tutorials might be the best way to go.&nbsp; So far as Facebook APIs are concerned, I think there was a revamp of the Facebook\r\n SDK on Codeplex that probably supports Silverlight.</p>\r\n<p>Hope that helps,</p>\r\n<p>-Joe</p>\r\n",
+    "PostedDate": "2011-02-07T18:16:30.487-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

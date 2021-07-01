@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Application UI",
+      "DisplayName": "Application UI"
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2010-07-10T09:30:50.437-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Currently all wall post and comment information is read-only.  Should make it selectable so it can be copied.\nThis isn't trivial.  At one point we had things this way but there are bad performance characterisitics when using a lot of cascading RichTextBoxes.  Using a plain TextBox doesn't allow for hyperlink clicks.\n \nWe need a template that seamlessly swaps out the current implementation with a RichTextBox based on mouse hover.",
+    "LastUpdatedDate": "2013-05-16T02:32:02.02-07:00",
+    "PlannedForRelease": "Fishbowl 1.4",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2009-12-02T09:36:39.16-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Need ability to copy text from newsfeed and wall posts",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 1,
+    "Id": 15145
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Did this.",
+      "PostedDate": "2010-07-10T09:30:42.363-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-07-10T09:30:50.437-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:35:23.723-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T02:32:02.02-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

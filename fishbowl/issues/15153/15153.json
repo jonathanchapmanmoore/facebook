@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2009-12-05T08:16:25.483-08:00",
+    "CommentCount": 0,
+    "Custom": "Duplicate",
+    "Description": "Currently you can hide updates from your news feed, be it app updates that your friends are using to your friends updates.  I would like to be able to have that same ability in FishBowl.",
+    "LastUpdatedDate": "2013-05-16T02:32:01.48-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2009-12-02T20:16:34.877-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Ability to hide apps from the news feed",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 15153
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Close this.. I voted for #15146",
+      "PostedDate": "2009-12-02T20:21:35.68-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Resolving as duplicate of 15146.",
+      "PostedDate": "2009-12-05T08:14:53.357-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-12-05T08:16:25.483-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T12:35:22.793-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T02:32:01.48-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

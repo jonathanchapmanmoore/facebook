@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I love the project and haven't really encountered any major bugs so far.  Good work!  The only problem I have found is when the program is minimized to the taskbar.  If you click one of the popup buttons it will change the page in the actual program but it does not change the preview window.  Is it possible for real time updates in the preview window?",
+    "LastUpdatedDate": "2013-02-14T12:35:24.583-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2009-11-23T07:55:42.84-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Minimized mini-mode window doesn't update DWM preview.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 15038
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Something happened to Fishbowl that it wasn't expecting.\nWhat follows is some information that would be helpful to the developer\nto fix the issue.  It would be great if you could paste the content of this\nfile to http://fishbowl.codeplex.com/workitem/list/basic, along with a brief\ndescription of what you were doing.\n \nThanks!\n \nEnvironment Info:\n\tProcessor Count: 8\n\tOS Version: Microsoft Windows NT 6.1.7601 Service Pack 1\n\tProcessor Architecture: x86\n\tRuntime Version: 4.0.30319.1\n\tProcess Name: Fishbowl\n\tApplication Version: 2.0.5.13\n\tWorking Set: 21MB\n\tCommand Line: \"C:\\Users\\Connor\\AppData\\Local\\Apps\\2.0\\G98RCG6Q.Q9G\\VX87M2YM.N4L\\fish..tion_0000000000000000_0002.0000_2a09c57182981035\\Fishbowl.exe\"\n\tDeployment Version: 2.0.5.13\n\tHas Shutdown Started: False\n \nException Information:\n \nSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.\nParameter name: index\n   at System.ThrowHelper.ThrowArgumentOutOfRangeException()\n   at System.Collections.Generic.List`1.get_Item(Int32 index)\n   at System.Collections.ObjectModel.Collection`1.System.Collections.IList.get_Item(Int32 index)\n   at System.Windows.Data.ListCollectionView.InternalItemAt(Int32 index)\n   at System.Windows.Data.ListCollectionView.GetItemAt(Int32 index)\n   at MS.Internal.Data.EnumerableCollectionView.GetItemAt(Int32 index)\n   at System.Windows.Controls.ItemCollection.GetItemAt(Int32 index)\n   at FacebookClient.ZapScroller.OnCurrentItemIndexChanged(Int32 oldValue, Int32 newValue)\n   at FacebookClient.ZapScroller.currentItemIndex_changed(DependencyObject element, DependencyPropertyChangedEventArgs e)\n   at System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)\n   at System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)\n   at System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)\n   at System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)\n   at System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)\n   at System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)\n   at FacebookClient.ZapScroller.moveToNextIndex(Object sender, EventArgs e)\n   at System.Windows.Threading.DispatcherTimer.FireTick(Object unused)\n   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)\n   at MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(Object source, Delegate method, Object args, Int32 numArgs, Delegate catchHandler)\n   at System.Windows.Threading.DispatcherOperation.InvokeImpl()\n   at System.Windows.Threading.DispatcherOperation.InvokeInSecurityContext(Object state)\n   at System.Threading.ExecutionContext.runTryCode(Object userData)\n   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)\n   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)\n   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)\n   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)\n   at System.Windows.Threading.DispatcherOperation.Invoke()\n   at System.Windows.Threading.Dispatcher.ProcessQueue()\n   at System.Windows.Threading.Dispatcher.WndProcHook(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)\n   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)\n   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)\n   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)\n   at MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(Object source, Delegate method, Object args, Int32 numArgs, Delegate catchHandler)\n   at System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)\n   at MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)\n   at MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)\n   at System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)\n   at System.Windows.Threading.Dispatcher.PushFrame(DispatcherFrame frame)\n   at System.Windows.Threading.Dispatcher.Run()\n   at System.Windows.Application.RunDispatcher(Object ignore)\n   at System.Windows.Application.RunInternal(Window window)\n   at System.Windows.Application.Run(Window window)\n   at FacebookClient.FishBowl.Main()",
+    "LastUpdatedDate": "2013-02-14T12:35:18.177-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "fishbowl",
+    "ReportedDate": "2011-03-22T19:31:43.557-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 20306
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "655460",
+    "ThreadId": "268435",
+    "Html": "\r\n<p>Buenas Tardes me descargue fishbowl a mi netbook para tener el cliente directo del facebook porque me parecio interesante pero cuando quiero iniciar sesion me sale error pagina no encontrada 505 algo asi saben a que se debe y como puedo solucionas ese problema\r\n .</p>\r\n<p>&nbsp;</p>\r\n<p>muchas gracias</p>\r\n<p>&nbsp;</p>\r\n<p>que tenga un buen dia</p>\r\n",
+    "PostedDate": "2011-08-09T13:23:04.593-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "655493",
+    "ThreadId": "268435",
+    "Html": "<p>Hi,</p>\r\n<p>Sorry you're having problems.&nbsp; I haven't seen this before.</p>\r\n<p>Does the error happen as soon as the application starts, or only after you have signed in?&nbsp; Is your account with Facebook.com, or is it associated with a different domain?</p>\r\n<p>Thanks,</p>\r\n<p>-Joe</p>",
+    "PostedDate": "2011-08-09T14:23:18.787-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "655653",
+    "ThreadId": "268435",
+    "Html": "<p>apenas inicia el programa y hago el login con mi cuenta de facebook al momento de cargar me sale ese error</p>",
+    "PostedDate": "2011-08-09T21:50:08.837-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

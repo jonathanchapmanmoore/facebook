@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "259920",
+    "ThreadId": "75994",
+    "Html": "<p>Hi,</p>\r\n<p>I downloaded fishbown a few hours ago and I can only say thank you and congratulations for making this really really useful program.</p>\r\n<p>&nbsp;</p>\r\n<p>I have only seen 1 issue and two suggestions.</p>\r\n<p>I've already posted the issue in the tracker, and the suggestions are to locate the program and to do a new posts count in the left's menu (like google reader) or when the program autoupdates the FB infos to be highlighted differently to know what news are newand what old.</p>\r\n<p>&nbsp;</p>\r\n<p>I don't know if it's possible but it will be amazing if Fishbowl do that.</p>\r\n<p>&nbsp;</p>\r\n<p>Congrats and Thanks for the app.</p>\r\n<p>PS: Sorry if you don't understand something, but I'm spanish and I tried to explain the idea the best I know.</p>",
+    "PostedDate": "2009-11-23T11:59:22.89-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "259981",
+    "ThreadId": "75994",
+    "Html": "<p>I'm glad you're enjoying the app.</p>\r\n<p>With regard to your issue, do you mean in the system's jump lists?&nbsp; The notifications within the app should have multiple links available, like &quot;_Someone_ commented on your _link_&quot; where both hyperlinks will go to the right place.&nbsp;&nbsp;For&nbsp;notifications that get surfaced through the Win7 JumpLists I can only pick one, so I just default to the first one.</p>\r\n<p>Having the app expose a notion of new vs. existing posts is useful.&nbsp; It's a little tricky to tell what's really new so far as the user is concerned when the application is just showing the newsfeed; I mean I don't know when to mark a post as having been read.&nbsp; But it's something we'll try to improve.</p>\r\n<p>Thanks for the feedback.</p>",
+    "PostedDate": "2009-11-23T13:51:41.257-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "259993",
+    "ThreadId": "75994",
+    "Html": "<p>Thanks of replying so fast.</p>\r\n<p>The notifications issue is inside the app. When you receive a notification from a post not yours but you have posted something it tells you &quot;_User1_ posted in _comment_ from _User2_&quot; or something like that. And when you click in the comment link it will be nice that the app focuses (or scroll) into that comment to see the whole conversation.</p>\r\n<p>&nbsp;</p>\r\n<p>Thanks Again and keep doing this great job.</p>",
+    "PostedDate": "2009-11-23T14:04:58.083-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "260025",
+    "ThreadId": "75994",
+    "Html": "<p>Ah, that makes sense.&nbsp; I'm not sure Facebook gives enough information that I'd be able to tell which post to scroll to, but I'll add info to the bug and look into it.</p>\r\n<p>Thanks!</p>",
+    "PostedDate": "2009-11-23T15:25:24.06-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]
